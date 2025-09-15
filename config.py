@@ -65,20 +65,20 @@ STREAMING_TIMEOUT = 600   # 10 minutes for large files
 # API Endpoints
 API_ENDPOINTS = {
     'auth': {
-        'login': '/api/auth/login/',
-        'signup': '/api/auth/signup/',
-        'verify_token': '/api/auth/verify-token/',
-        'user_profile': '/api/auth/user/',
+        'login': '/auth/login/',
+        'signup': '/auth/signup/',
+        'verify_token': '/auth/verify-token/',
+        'user_profile': '/auth/user/',
     },
     'orders': {
-        'chatfiles': '/api/orders/chatfiles/',
-        'processed_files': '/api/orders/processed-files/',
-        'validated_files': '/api/orders/validated-files/',
-        'orders': '/api/orders/orders/',
-        'stats': '/api/orders/stats/',
-        'analytics': '/api/orders/analytics/',
-        'process_stream': '/api/orders/process-stream/',
-        'send_messages': '/api/orders/send-messages/',
+        'chatfiles': '/orders/chatfiles/',
+        'processed_files': '/orders/processed-files/',
+        'validated_files': '/orders/validated-files/',
+        'orders': '/orders/orders/',
+        'stats': '/orders/stats/',
+        'analytics': '/orders/analytics/',
+        'process_stream': '/orders/process-stream/',
+        'send_messages': '/orders/send-messages/',
     }
 }
 
