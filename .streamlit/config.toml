@@ -18,5 +18,3 @@ secondaryBackgroundColor = "#f8f9fa"
 textColor = "#262730"
 font = "sans serif"
 
-[secrets]
-API_BASE_URL = "https://ff0cb040aff1.ngrok-free.app/api"
