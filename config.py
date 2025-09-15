@@ -11,6 +11,7 @@ load_dotenv()
 
 # API Configuration
 API_BASE_URL = st.secrets["API_BASE_URL"]
+st.write("API base URL:", st.secrets["API_BASE_URL"])
 
 # App Configuration
 APP_NAME = "WhatsApp Order Processing"
