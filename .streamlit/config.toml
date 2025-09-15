@@ -9,7 +9,6 @@ enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
-showErrorDetails = false
 
 [theme]
 primaryColor = "#1f77b4"
