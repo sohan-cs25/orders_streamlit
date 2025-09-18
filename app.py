@@ -432,13 +432,13 @@ def show_extract_orders_page():
                                 status_data = status_response.json()
 
                                 # Update progress more conservatively
-                                progress = min(poll_count / max_polls, 0.90)
-                                progress_bar.progress(progress)
-                                progress_metric.metric("Progress", f"{int(progress * 100)}%")
+                                # progress = min(poll_count / max_polls, 0.90)
+                                # progress_bar.progress(progress)
+                                # progress_metric.metric("Progress", f"{int(progress * 100)}%")
 
                                 if status_data.get('is_processed'):
                                     # Processing complete!
-                                    progress_bar.progress(100.0)
+                                    # progress_bar.progress(100.0)
                                     status_text.success("✅ Processing complete!")
 
                                     # Get processed file info
