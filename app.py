@@ -730,8 +730,8 @@ def show_send_messages_page():
                             st.info(f"⏱️ Estimated sending time: ~{estimated_time} seconds ({estimated_time//60}m {estimated_time%60}s)")
 
                             # Send messages using new synchronous endpoint
-                            progress_bar = st.progress(0)
-                            status_text = st.empty()
+                            # progress_bar = st.progress(0)
+                            # status_text = st.empty()
 
                             status_text.text("📤 Sending WhatsApp messages (2-second delay between messages)...")
 
@@ -742,7 +742,7 @@ def show_send_messages_page():
                                 data={'validated_file_id': file_id}
                             )
 
-                            progress_bar.progress(100.0)
+                            # progress_bar.progress(100.0)
 
                             if send_response and send_response.status_code == 200:
                                 send_data = send_response.json()
