@@ -731,7 +731,7 @@ def show_send_messages_page():
 
                             # Send messages using new synchronous endpoint
                             # progress_bar = st.progress(0)
-                            # status_text = st.empty()
+                            status_text = st.empty()
 
                             status_text.text("📤 Sending WhatsApp messages (2-second delay between messages)...")
 
