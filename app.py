@@ -438,7 +438,7 @@ def show_extract_orders_page():
 
                                 if status_data.get('is_processed'):
                                     # Processing complete!
-                                    progress_bar.progress(1.0)
+                                    progress_bar.progress(100.0)
                                     status_text.success("✅ Processing complete!")
 
                                     # Get processed file info
